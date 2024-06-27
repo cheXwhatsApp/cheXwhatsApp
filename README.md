@@ -49,6 +49,60 @@ Returns:
 
 ans (dictionary): The computed LI score(s) based on the IoU thresholds and class labels.
 
+```
+import pandas as pd
+from cheXwhatsApp import li_score
+
+# Sample data for high-resolution predictions
+data_hr = {
+    'Name': ['cat', 'dog'],
+    'label': [0, 1],
+    'x_min': [10, 20],
+    'y_min': [30, 40],
+    'x_max': [50, 60],
+    'y_max': [70, 80]
+}
+df_hr = pd.DataFrame(data_hr)
+
+# Sample data for low-resolution predictions
+data_lr = {
+    'Name': ['cat', 'dog'],
+    'label': [0, 1],
+    'x_min': [12, 22],
+    'y_min': [32, 42],
+    'x_max': [52, 62],
+    'y_max': [80, 100]
+}
+df_lr = pd.DataFrame(data_lr)
+
+# Sample data for ground truth high-resolution
+data_gt_hr = {
+    'Name': ['cat', 'dog'],
+    'class': [0, 1],
+    'x_min': [11, 21],
+    'y_min': [31, 41],
+    'x_max': [51, 61],
+    'y_max': [71, 81]
+}
+df_gt_hr = pd.DataFrame(data_gt_hr)
+
+# Sample data for ground truth low-resolution
+data_gt_lr = {
+    'Name': ['cat', 'dog'],
+    'class': [0, 1],
+    'x_min': [13, 23],
+    'y_min': [33, 43],
+    'x_max': [53, 63],
+    'y_max': [73, 83]
+}
+df_gt_lr = pd.DataFrame(data_gt_lr)
+
+# Compute the LI score
+iou_thresholds = [0.5, 0.75]
+li_score_result = li_score(df_hr, df_lr, df_gt_hr, df_gt_lr, iou_thresholds)
+print(li_score_result)
+
+```
 
 
 
