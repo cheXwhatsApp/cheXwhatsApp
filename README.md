@@ -29,3 +29,8 @@ from cheXwhatsApp import pi_score
 pi_score = pi_score(data_frame1, data_frame2)
 ```
 
+## LI Score Calculation
+This repository contains the li_score function, which calculates a metric (LI score) that evaluates the performance of bounding box predictions from high-resolution and low-resolution images against ground truth bounding boxes.
+
+
+
