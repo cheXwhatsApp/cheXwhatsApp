@@ -125,6 +125,26 @@ Returns:
 
 pd.DataFrame: DataFrame containing the OLS scores.
 
+```
+import pandas as pd
+from cheXwhatsApp import ols_score
+
+# Define the paths and parameters
+image_path = 'path/to/your/images'
+heatmap_hr_dir = 'path/to/high-resolution/heatmaps'
+heatmap_lr_dir = 'path/to/low-resolution/heatmaps'
+device = 'cpu'  # or 'cuda' if you have a GPU
+image_size = 512
+thresholds = [0.5, 0.75]
+
+# Compute the OLS score
+ols_score_result = ols_score(image_path, heatmap_hr_dir, heatmap_lr_dir, device, image_size, thresholds)
+
+# Print the results
+print(ols_score_result)
+
+```
+
 
 
 
