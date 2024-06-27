@@ -32,6 +32,14 @@ pi_score = pi_score(data_frame1, data_frame2)
 
 ## LI Score Calculation
 This repository contains the li_score function, which calculates a metric (LI score) that evaluates the performance of bounding box predictions from high-resolution and low-resolution images against ground truth bounding boxes.
+Parameters:
+df_hr (DataFrame): A DataFrame containing bounding box predictions for high-resolution images.
+df_lr (DataFrame): A DataFrame containing bounding box predictions for low-resolution images.
+df_gt_hr (DataFrame): A DataFrame containing ground truth bounding boxes for high-resolution images.
+df_gt_lr (DataFrame): A DataFrame containing ground truth bounding boxes for low-resolution images.
+iou_thresholds (list, optional): A list of IoU thresholds to use for evaluation. Default is [0.5].
+Returns:
+ans (dictionary): The computed LI score(s) based on the IoU thresholds and class labels.
 
 
 
