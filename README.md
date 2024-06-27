@@ -104,5 +104,28 @@ print(li_score_result)
 
 ```
 
+## OLS Score Calculation
+This repository contains the ols_score function, which computes the Object-Level Similarity (OLS) score for images using high-resolution and low-resolution heatmaps. The function returns the results as a DataFrame.
+
+Parameters:
+
+image_path (str): Path to the directory containing the original images.
+
+heatmap_hr_dir (str): Directory containing high-resolution heatmaps.
+
+heatmap_lr_dir (str): Directory containing low-resolution heatmaps.
+
+device (str): Device to use for computation ('cpu' or 'cuda'). Default is 'cpu'.
+
+image_size (int): Size to resize the images. Default is 512.
+
+thresholds (list): List of thresholds for score calculation. Default is [0.5].
+
+Returns:
+
+pd.DataFrame: DataFrame containing the OLS scores.
+
+
+
 
 
