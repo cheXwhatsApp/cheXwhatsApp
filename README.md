@@ -105,7 +105,7 @@ print(li_score_result)
 ```
 
 ## OLS Score Calculation
-This repository contains the ols_score function, which computes the Object-Level Similarity (OLS) score for images using high-resolution and low-resolution heatmaps. The function returns the results as a DataFrame.
+This repository contains the ols_score function, which computes the OLS score for images using high-resolution and low-resolution heatmaps. The function returns the results as a DataFrame.
 
 Parameters:
 
