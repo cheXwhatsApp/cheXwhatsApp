@@ -22,6 +22,7 @@ Install with
 ```
 pip install cheXwhatsApp
 ```
+## PI Score Calculation
 pi_score : measures how different are predictions on original and whatsapp images.   
 Create dataframes with ImageNames, Labels as index for predictions of whatsapp and original images
 ```
