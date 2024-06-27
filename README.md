@@ -133,8 +133,11 @@ from cheXwhatsApp import ols_score
 image_path = 'path/to/your/images'
 heatmap_hr_dir = 'path/to/high-resolution/heatmaps'
 heatmap_lr_dir = 'path/to/low-resolution/heatmaps'
+
 device = 'cpu'  # or 'cuda' if you have a GPU
+
 image_size = 512
+
 thresholds = [0.5, 0.75]
 
 # Compute the OLS score
