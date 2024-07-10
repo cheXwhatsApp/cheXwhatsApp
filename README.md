@@ -3,8 +3,8 @@
 [RSNA](https://zenodo.org/records/11632392), [NIH](https://zenodo.org/records/11569375), [Chexphoto](), [VinDr]()  
    
 * Original data is present at : 
-[RSNA](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge/data), 
-[NIH](https://nihcc.app.box.com/v/ChestXray-NIHCC), [Chexphoto](http://download.cs.stanford.edu/deep/CheXphoto-v1.0-split/CheXphoto-v1.0-split.txt), [Vindr](https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/data)
+[RSNA](https://zenodo.org/records/11632392), 
+[NIH](https://zenodo.org/records/11569375), [Chexphoto](http://download.cs.stanford.edu/deep/CheXphoto-v1.0-split/CheXphoto-v1.0-split.txt), [Vindr](https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/data)
 
 
 ## Data Description
