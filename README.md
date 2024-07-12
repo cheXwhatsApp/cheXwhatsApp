@@ -1,10 +1,10 @@
 ## Dataset location
 * Whatsapp compressed data sets are is present at :
-[RSNA](https://zenodo.org/records/11632392), [NIH](https://zenodo.org/records/11569375), [Chexphoto](https://zenodo.org/records/12725982), [VinDr]()  
+[RSNA](https://zenodo.org/records/11632392), [NIH](https://zenodo.org/records/11569375), [CheXphoto](https://zenodo.org/records/12725982), [VinDr]()  
    
 * Original data is present at : 
 [RSNA](https://zenodo.org/records/12723762), 
-[NIH](https://zenodo.org/records/12727583), [Chexphoto]([https://zenodo.org/records/12725982](https://zenodo.org/records/12723955)), [Vindr](https://zenodo.org/records/12721389)
+[NIH](https://zenodo.org/records/12727583), [CheXphoto Part1](https://zenodo.org/records/12723955), [CheXphoto Part2](https://zenodo.org/records/12724984) [Vindr](https://zenodo.org/records/12721389)
 
 
 ## Data Description
