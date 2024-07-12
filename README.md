@@ -4,7 +4,7 @@
    
 * Original data is present at : 
 [RSNA](https://zenodo.org/records/12723762), 
-[NIH](https://zenodo.org/records/12727583), [CheXphoto Part1](https://zenodo.org/records/12723955), [CheXphoto Part2](https://zenodo.org/records/12724984) [Vindr](https://zenodo.org/records/12721389)
+[NIH](https://zenodo.org/records/12727583), [CheXphoto]() ([Part1](https://zenodo.org/records/12723955), [Part2](https://zenodo.org/records/12724984)) [Vindr](https://zenodo.org/records/12721389)
 
 
 ## Data Description
